@@ -34,6 +34,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip; then
   alias gb='git branch'
 
   # Commit (c)
+  alias gc='git commit'
   alias gcm='git commit --message'
   alias gco='git checkout'
 
