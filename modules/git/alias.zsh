@@ -46,7 +46,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip; then
   alias gd='git diff'
 
   # Log (l)
-  alias gls='git log --topo-order --stat --pretty=format:"$_git_log_medium_format"'
+  alias glg='git log --topo-order --stat --pretty=format:"$_git_log_medium_format"'
 
   # Merge (m)
   alias gm='git merge'
