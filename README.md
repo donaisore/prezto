@@ -20,7 +20,7 @@ version is **4.3.11**.
 2.  Clone the repository:
 
     ```console
-    git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+    git clone --recursive https://github.com/donaisore/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
     ```
 
     <details>
