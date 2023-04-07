@@ -37,6 +37,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip; then
   alias gc='git commit'
   alias gcm='git commit --message'
   alias gco='git checkout'
+  alias gcp='git cherry-pick'
 
   # Fetch (f)
   alias gf='git fetch'
@@ -56,6 +57,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip; then
 
   # Stash (s)
   alias gs='git stash'
+  alias gss='git stash save'
   alias gsa='git stash apply'
   alias gsp='git stash pop'
   alias gsd='git stash drop'
@@ -68,6 +70,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip; then
   # Push (p)
   alias gp='git push'
   alias gpc='git push --set-upstream origin "$(git-branch-current 2> /dev/null)"'
+  alias gpf='git push --force-with-lease --force-if-includes'
   alias gl='git pull'
   alias glc='git pull origin "$(git-branch-current 2> /dev/null)"'
 
